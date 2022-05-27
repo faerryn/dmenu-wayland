@@ -592,6 +592,10 @@ usage(void) {
     printf("                                      when using -e, -ec, or -er\n");
     printf("  -b,  --bottom                     dmenu appears at the bottom of the screen\n");
     printf("  -h,  --height N                   set dmenu to be N pixels high\n");
+    printf("  -x,  --horizontal-margins N       set dmenu to have N pixels of horizontal\n");
+    printf("                                      margins\n");
+    printf("  -y,  --vertical-margins N         set dmenu to have N pixels of vertical\n");
+    printf("                                      margins\n");
     printf("  -i,  --insensitive                dmenu matches menu items case insensitively\n");
     printf("  -l,  --lines LINES                dmenu lists items vertically, within the\n");
     printf("                                      given number of lines\n");
